@@ -1,0 +1,23 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "fastembed==0.7.4",
+    "langchain>=1.2.10",
+    "langchain-mistralai>=1.1.1",
+    "langchain-openai>=1.1.10",
+    "langgraph>=1.0.10",
+    "langgraph-checkpoint-redis>=0.3.6",
+    "numpy==1.26.4",
+    "onnxruntime==1.22.1",
+    "pydantic-settings>=2.13.1",
+    "qdrant-client>=1.17.0",
+    "torch>=2.10.0",
+    "transformers>=4.57.6",
+    "uvicorn>=0.41.0",
+    "uvloop>=0.22.1",
+]

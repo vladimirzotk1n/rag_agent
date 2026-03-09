@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <span class="brand-name">ASSISTANT</span>
+        </div>
+        <div class="status">
+          <span class="status-indicator" id="statusDot"></span>
+          <span class="status-text" id="statusText">ready</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat-area" id="chatArea">
+      <div class="welcome" id="welcome">
+        <div class="welcome-glyph">⬡</div>
+        <p class="welcome-text">Start a conversation</p>
+      </div>
+      <div class="messages" id="messages"></div>
+    </main>
+
+    <footer class="input-bar">
+      <div class="input-inner">
+        <textarea
+          id="userInput"
+          class="input-field"
+          placeholder="Type a message…"
+          rows="1"
+          autocomplete="off"
+          spellcheck="false"
+        ></textarea>
+        <button class="send-btn" id="sendBtn" aria-label="Send">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
