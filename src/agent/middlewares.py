@@ -14,4 +14,5 @@ async def prompt_with_context(request: ModelRequest):
         SYSTEM_PROMPT.substitute(context=context)
         + f"\n\nВопрос пользователя:\n {user_query}"
     )
+    print(message)
     return message

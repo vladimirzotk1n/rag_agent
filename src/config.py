@@ -23,5 +23,7 @@ class Settings(BaseSettings):
     redis_user: str
     redis_user_password: str
 
+    multihop: bool
+
 
 settings = Settings()

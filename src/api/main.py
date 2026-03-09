@@ -22,7 +22,7 @@ async def lifespan(app: FastAPI):
     checkpointer = AsyncRedisSaver(settings.redis_url)
     await checkpointer.asetup()
 
-    agent = RAGAgent(checkpointer, multihop=False)
+    agent = RAGAgent(checkpointer, multihop=settings.multihop)  # Было False
     await agent.setup()
     app.state.agent = agent
 

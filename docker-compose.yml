@@ -40,6 +40,8 @@ services:
     
     ports:
       - "8080:80"
+    volumes:
+      - ./prod.log:/app/prod.log
 
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:80/healthcheck"]
@@ -63,5 +65,4 @@ services:
       - "3000:80"               
     depends_on:
       - backend
-    #     condition: service_healthy
     
