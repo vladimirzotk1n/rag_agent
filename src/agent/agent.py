@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain.messages import AIMessage, HumanMessage
@@ -67,11 +65,10 @@ class RAGAgent:
             raise RuntimeError("Rag Agent is not initialized!")
 
         config = {"configurable": {"thread_id": thread_id}}
+
         input_state = {"messages": [HumanMessage(content=user_message)]}
         async for message, _ in self.graph.astream(
-            input_state,
-            config=config,
-            stream_mode="messages",
+            input_state, config=config, stream_mode="messages", durability="sync"
         ):
             if message.content:
                 yield message.content
