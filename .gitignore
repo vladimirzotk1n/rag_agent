@@ -11,10 +11,9 @@ wheels/
 .env
 
 # Data folders
-data/
 redis_data/
 qdrant_data/
 mlflow/
 
-prod.log
 .DS_Store
+.python-version

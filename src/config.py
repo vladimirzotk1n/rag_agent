@@ -6,10 +6,11 @@ class Settings(BaseSettings):
     dense_model_name: str
     chunks_path: str = "/data/json/queried_tk_rf_flat.json"
     sparce_model_name: str = "Qdrant/bm25"
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
     use_cuda: bool = False
     dense_embedding_dim: int = 384
     hf_token: str
+    e5_model: str
+    tokenizer: str
     llm_model: str
     redis_url: str
 
@@ -24,6 +25,7 @@ class Settings(BaseSettings):
     redis_user_password: str
 
     multihop: bool
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
 
 settings = Settings()

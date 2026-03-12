@@ -28,11 +28,7 @@ class E5Vectorizer(nn.Module):
         return embs_normalized
 
 
-tokenizer = AutoTokenizer.from_pretrained(
-    "intfloat/multilingual-e5-small", token=settings.hf_token
-)
+tokenizer = AutoTokenizer.from_pretrained(settings.tokenizer, token=settings.hf_token)
 model = E5Vectorizer()
 model.to(device=DEVICE)
 model.eval()
-
-# Загрузить веса
