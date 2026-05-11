@@ -29,7 +29,7 @@ from src.utils.prompts import SYSTEM_PROMPT
 load_dotenv()
 
 N_EVAL = 30  # количество запросов на конфигурацию
-TOP_K = 15
+TOP_K = 5
 SEED = 42
 DATA_PATH = "data/json/queried_tk_rf_flat.json"
 RESULTS_DIR = Path("eval/results")
@@ -191,7 +191,7 @@ async def main():
         print(f" -> {row}")
 
     df = pd.DataFrame(rows)
-    out = RESULTS_DIR / "eval_results_15.csv"
+    out = RESULTS_DIR / "eval_results_5.csv"
     df.to_csv(out, index=False)
     print(f"\nSaved -> {out}")
     print(df.to_string(index=False))

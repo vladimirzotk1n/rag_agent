@@ -1,0 +1,244 @@
+2026-05-11 23:21:15.185 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что должен делать работодатель по трудовому договору?' -> 'обязанности работодателя по трудовому договору'
+2026-05-11 23:21:15.186 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:21:15.220 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:21:15.289 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:21:28.497 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что делать, если мой работодатель игнорирует нормы трудового права?' -> 'игнорирование норм трудового законодательства работодателем'
+2026-05-11 23:21:28.498 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:21:28.528 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:21:28.568 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:21:45.193 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Какие права есть у работника в командировке?' -> 'права работника в командировке'
+2026-05-11 23:21:45.193 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:21:45.223 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:21:45.267 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:22:07.307 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'В каких случаях можно удерживать зарплату работника?' -> 'основания для удержания заработной платы работника'
+2026-05-11 23:22:07.309 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:22:07.338 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:22:07.378 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:22:23.995 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что такое индексация заработной платы и как она работает?' -> 'индексация заработной платы в трудовом законодательстве'
+2026-05-11 23:22:23.996 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:22:24.027 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:22:24.062 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:22:37.452 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Могу ли я работать, если у меня есть медицинское заключение о противопоказаниях?' -> 'работа при наличии медицинского заключения о противопоказаниях'
+2026-05-11 23:22:37.452 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:22:37.482 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:22:37.523 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:22:59.354 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Есть ли у сотрудников право голоса при принятии решений на работе?' -> 'право работников на участие в управлении организацией'
+2026-05-11 23:22:59.355 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:22:59.386 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:22:59.425 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:23:12.654 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Как проверить, есть ли у компании лицензия на ведение опасных работ?' -> 'проверка лицензии на выполнение опасных работ'
+2026-05-11 23:23:12.655 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:23:12.685 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:23:12.726 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:23:27.486 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Если организация меняет форму собственности, станет ли действительным коллективный договор?' -> 'действие коллективного договора при изменении формы собственности'
+2026-05-11 23:23:27.487 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:23:27.518 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:23:27.553 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:23:47.632 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Какой орган может помочь с трудовыми спорами?' -> 'орган, разрешающий трудовые споры'
+2026-05-11 23:23:47.632 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:23:47.662 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:23:47.697 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:24:01.896 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Можно ли подростку работать в ночное время?' -> 'работа несовершеннолетних в ночное время'
+2026-05-11 23:24:01.897 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:24:01.926 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:24:01.965 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:24:24.783 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Как проверить, на каких основаниях я работаю, если есть гражданский договор?' -> 'основания трудовых отношений при гражданском договоре'
+2026-05-11 23:24:24.784 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:24:24.812 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:24:24.847 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:24:38.164 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Могут ли иностранцы рассчитывать на защиту трудовых прав в России?' -> 'защита трудовых прав иностранных работников в России'
+2026-05-11 23:24:38.165 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:24:38.195 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:24:38.233 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:24:58.631 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Кто может предложить новый коллективный договор после смены собственника?' -> 'предложение нового коллективного договора после смены собственника'
+2026-05-11 23:24:58.631 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:24:58.661 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:24:58.697 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:25:10.291 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Какой размер оклада у работников бюджетных организаций?' -> 'размер оклада работников бюджетных организаций'
+2026-05-11 23:25:10.291 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:25:10.322 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:25:10.349 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:25:32.624 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Как защитить свои права по зарплате, если работодатель нарушает условия договора?' -> 'защита прав работника по оплате труда'
+2026-05-11 23:25:32.625 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:25:32.658 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:25:32.701 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:25:47.162 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что делать, если меня хотят уволить из представительства за границей?' -> 'увольнение работника представительства за границей'
+2026-05-11 23:25:47.162 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:25:47.193 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:25:47.233 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:26:01.401 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Нужен ли протокол при разрешении трудовых споров?' -> 'протокол разрешения трудовых споров'
+2026-05-11 23:26:01.401 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:26:01.431 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:26:01.469 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:26:23.846 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Как профсоюз может помочь защитить мои трудовые права?' -> 'защита трудовых прав работника профсоюзом'
+2026-05-11 23:26:23.847 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:26:23.879 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:26:23.922 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:26:42.051 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Как считается срок основного и дополнительного отпусков?' -> 'расчет сроков основного и дополнительного отпусков'
+2026-05-11 23:26:42.051 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:26:42.079 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:26:42.117 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:26:54.986 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что такое трудовой арбитраж и как им воспользоваться?' -> 'трудовой арбитраж и порядок его применения'
+2026-05-11 23:26:54.987 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:26:55.018 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:26:55.076 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:27:10.812 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Почему детей не допускают к опасным работам?' -> 'Запрет на допуск несовершеннолетних к опасным работам'
+2026-05-11 23:27:10.813 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:27:10.836 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:27:10.866 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:27:33.347 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Какие права у меня есть, если мне недоплатили зарплату?' -> 'права работника при недоплате заработной платы'
+2026-05-11 23:27:33.347 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:27:33.380 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:27:33.442 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:27:47.829 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что делать, если меня принимают на работу на короткий срок?' -> 'трудовой договор на определенный срок'
+2026-05-11 23:27:47.830 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:27:47.861 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:27:47.909 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:28:03.051 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что делать, если меня выбрали на должность в местной администрации?' -> 'назначение на должность в местной администрации'
+2026-05-11 23:28:03.052 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:28:03.083 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:28:03.129 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:28:24.658 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Какие основные цели трудового законодательства?' -> 'основные цели трудового законодательства РФ'
+2026-05-11 23:28:24.659 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:28:24.689 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:28:24.729 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:28:45.446 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Что такое обработка персональных данных и кто за это отвечает?' -> 'определение обработки персональных данных и ответственность'
+2026-05-11 23:28:45.446 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:28:45.477 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:28:45.513 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:28:58.004 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Есть ли случаи, когда трудовой спор не может рассмотреть комиссия?' -> 'исключения из компетенции трудовой комиссии'
+2026-05-11 23:28:58.004 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:28:58.034 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:28:58.074 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:29:19.375 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Есть ли у работников право на безопасность и здоровье на работе?' -> 'право работников на безопасность и охрану здоровья'
+2026-05-11 23:29:19.375 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:29:19.403 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:29:19.439 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:29:30.603 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'Можно ли угрожать инспекторам труда, если они пришли с проверкой?' -> 'угроза инспекторам труда при проведении проверки'
+2026-05-11 23:29:30.603 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:29:30.631 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=hybrid)
+2026-05-11 23:29:30.663 | INFO     | src.db.get_top:get_top:98 - Successfully got top queries
+2026-05-11 23:48:44.853 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'обязанности работодателя по трудовому договору' -> 'обязанности работодателя по трудовому договору'
+2026-05-11 23:48:44.856 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:48:44.889 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:48:44.932 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:49:06.877 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'игнорирование норм трудового права работодателем' -> 'игнорирование норм трудового законодательства работодателем'
+2026-05-11 23:49:06.877 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:49:06.895 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:49:06.911 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:49:33.664 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'права работника в командировке' -> 'права работника в служебной командировке'
+2026-05-11 23:49:33.665 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:49:33.697 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:49:33.720 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:49:59.207 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'удержание зарплаты работника' -> 'удержание заработной платы работника'
+2026-05-11 23:49:59.207 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:49:59.235 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:49:59.252 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:50:25.817 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'индексация заработной платы' -> 'индексация заработной платы работников'
+2026-05-11 23:50:25.817 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:50:25.844 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:50:25.858 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:50:50.006 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'работа с медицинским заключением о противопоказаниях' -> 'работа с медицинским заключением о противопоказаниях к труду'
+2026-05-11 23:50:50.006 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:50:50.034 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:50:50.050 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:51:16.520 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'право голоса сотрудников при принятии решений на работе' -> 'право работников на участие в управлении организацией'
+2026-05-11 23:51:16.520 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:51:16.549 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:51:16.568 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:51:41.302 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'проверка лицензии компании на ведение опасных работ' -> 'проверка лицензии на выполнение опасных работ'
+2026-05-11 23:51:41.303 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:51:41.332 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:51:41.353 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:52:10.201 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'изменение формы собственности и коллективный договор' -> 'изменение формы собственности и условия коллективного договора'
+2026-05-11 23:52:10.201 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:52:10.229 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:52:10.249 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:52:33.759 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'орган, который может помочь с трудовыми спорами' -> 'орган, разрешающий трудовые споры'
+2026-05-11 23:52:33.760 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:52:33.790 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:52:33.808 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:52:58.101 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'работа подростка в ночное время' -> 'труд подростков в ночное время'
+2026-05-11 23:52:58.101 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:52:58.131 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:52:58.151 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:53:30.206 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'гражданский договор основания работы' -> 'гражданский договор как основание трудовых отношений'
+2026-05-11 23:53:30.206 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:53:30.237 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:53:30.257 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:53:57.100 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'защита трудовых прав иностранцев в России' -> 'защита трудовых прав иностранных работников в России'
+2026-05-11 23:53:57.100 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:53:57.129 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:53:57.150 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:54:21.249 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'новый коллективный договор смена собственника' -> 'коллективный договор при смене собственника'
+2026-05-11 23:54:21.250 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:54:21.280 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:54:21.296 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:54:43.168 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'размер оклада работников бюджетных организаций' -> 'размер оклада работников бюджетных учреждений'
+2026-05-11 23:54:43.168 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:54:43.198 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:54:43.214 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:55:07.281 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'защита прав работника по зарплате, нарушение условий договора' -> 'защита прав работника по оплате труда и условиям договора'
+2026-05-11 23:55:07.281 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:55:07.312 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:55:07.330 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:55:35.251 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'увольнение из представительства за границей' -> 'увольнение работника представительства за границей'
+2026-05-11 23:55:35.252 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:55:35.282 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:55:35.298 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:56:01.806 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'протокол трудовые споры' -> 'протокол рассмотрения трудовых споров'
+2026-05-11 23:56:01.807 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:56:01.837 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:56:01.855 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:56:25.769 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'профсоюз защита трудовых прав' -> 'защита трудовых прав работника профсоюзом'
+2026-05-11 23:56:25.770 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:56:25.799 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:56:25.816 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:56:52.552 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'срок основного и дополнительного отпусков' -> 'сроки предоставления основного и дополнительного отпусков'
+2026-05-11 23:56:52.553 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:56:52.583 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:56:52.602 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:57:17.891 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'трудовой арбитраж' -> 'трудовой арбитраж и разрешение трудовых споров'
+2026-05-11 23:57:17.892 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:57:17.924 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:57:17.945 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:57:42.916 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'почему детей не допускают к опасным работам' -> 'ограничения на допуск несовершеннолетних к опасным работам'
+2026-05-11 23:57:42.916 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:57:42.944 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:57:42.999 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:58:07.707 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'права работника при недоплате зарплаты' -> 'права работника при задержке или недоплате заработной платы'
+2026-05-11 23:58:07.707 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:58:07.740 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:58:07.760 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:58:42.292 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'что делать если принимают на работу на короткий срок' -> 'трудовой договор на определенный срок'
+2026-05-11 23:58:42.292 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:58:42.324 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:58:42.345 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:59:10.225 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'что делать если выбрали на должность в местной администрации' -> 'назначение на должность в местной администрации'
+2026-05-11 23:59:10.225 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:59:10.256 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:59:10.278 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:59:18.382 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'основные цели трудового законодательства' -> 'основные цели трудового законодательства РФ'
+2026-05-11 23:59:18.383 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:59:18.415 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:59:18.435 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:59:52.353 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'обработка персональных данных' -> 'обработка персональных данных работников'
+2026-05-11 23:59:52.353 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:59:52.386 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:59:52.405 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-11 23:59:52.618 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'ответственность за обработку персональных данных' -> 'ответственность за нарушение законодательства о персональных данных'
+2026-05-11 23:59:52.619 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-11 23:59:52.648 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-11 23:59:52.669 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-12 00:00:26.050 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'случаи, когда трудовой спор не может рассмотреть комиссия' -> 'случаи, исключающие рассмотрение трудового спора комиссией'
+2026-05-12 00:00:26.051 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-12 00:00:26.066 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-12 00:00:26.086 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-12 00:00:50.068 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'право работников на безопасность и здоровье на работе' -> 'право работников на охрану труда и здоровье'
+2026-05-12 00:00:50.068 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-12 00:00:50.098 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-12 00:00:50.120 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries
+2026-05-12 00:01:24.164 | INFO     | src.agent.rephraser:rephrase_query:23 - Rephrased query: 'угрозы инспекторам труда' -> 'угрозы работникам инспекции труда'
+2026-05-12 00:01:24.165 | INFO     | src.db.get_top:get_top:26 - Connecting to Qdrant database
+2026-05-12 00:01:24.195 | INFO     | src.db.get_top:get_top:33 - Getting top queries (mode=dense)
+2026-05-12 00:01:24.209 | INFO     | src.db.get_top:get_top:61 - Successfully got top queries

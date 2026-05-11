@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
+from huggingface_hub import PyTorchModelHubMixin
 from transformers import AutoModel, AutoTokenizer
 
 from src.config import settings
@@ -7,7 +8,7 @@ from src.config import settings
 from .device import DEVICE
 
 
-class E5Vectorizer(nn.Module):
+class E5Vectorizer(nn.Module, PyTorchModelHubMixin):
     def __init__(self):
         super().__init__()
         self.e5 = AutoModel.from_pretrained(settings.e5_model, token=settings.hf_token)
@@ -27,6 +28,8 @@ class E5Vectorizer(nn.Module):
 
 
 tokenizer = AutoTokenizer.from_pretrained(settings.tokenizer, token=settings.hf_token)
-model = E5Vectorizer()
+model = E5Vectorizer.from_pretrained(
+    "VladimirFireBall/tk_rf_e5-small-v3", token=settings.hf_token
+)
 model.to(device=DEVICE)
 model.eval()
