@@ -16,6 +16,7 @@
 - Redis
 - Docker / Docker Compose
 - Nginx
+- RAGAS
 
 --------------------------------------------------
 
@@ -28,6 +29,7 @@
 │   ├── processed          # Markdown версия
 │   └── json               # Структурированный Json с сгенерированными вопросами
 ├── dataset_creation       # Скрипты по созданию датасета
+├── eval                   # Оценка качества RAG системы
 ├── docker-compose.yml     # Оркестрация проекта
 ├── pyproject.toml         
 ├── src                    
@@ -65,7 +67,7 @@ Retriever ищет релевантные чанки статей,
 
 Реализация обучения:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13gX0KSn10pEfm-UNT1VGik3OtQ0i4-Ye?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_K10gwomnC9OGD0Ui-Yzjw3Xn3qiXETK?usp=sharing)
 
 --------------------------------------------------
 

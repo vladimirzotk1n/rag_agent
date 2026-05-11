@@ -8,10 +8,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 class TKRusParser:
     """
-    Парсер Трудового Кодекса РФ с поддержкой чанков для статей.
     Логика: Заголовок захватывает весь текст до следующего заголовка любого уровня.
     """
-
     def __init__(self, chunk_size: int = 1000, chunk_overlap: int = 50):
         self.re_section = re.compile(
             r"^Раздел\s+([IVX]+)\.\s*(.*)$", re.IGNORECASE | re.MULTILINE
@@ -30,7 +28,6 @@ class TKRusParser:
         )
 
     def _find_all_headers(self, text: str) -> List[Dict]:
-        """Находит все заголовки в тексте и сортирует их по позиции"""
         headers = []
 
         for match in self.re_section.finditer(text):
@@ -38,6 +35,7 @@ class TKRusParser:
                 {
                     "type": "section",
                     "pos": match.start(),
+                    "end": match.end(),
                     "id": match.group(1),
                     "title": match.group(2).strip(),
                 }
@@ -48,6 +46,7 @@ class TKRusParser:
                 {
                     "type": "chapter",
                     "pos": match.start(),
+                    "end": match.end(),
                     "id": match.group(1),
                     "title": match.group(2).strip(),
                 }
@@ -58,18 +57,50 @@ class TKRusParser:
                 {
                     "type": "article",
                     "pos": match.start(),
+                    "end": match.end(),
                     "id": match.group(1),
                     "title": match.group(2).strip(),
                 }
             )
 
         headers.sort(key=lambda x: x["pos"])
+
+        # Extend titles with uppercase continuation lines (handles PDF line-wrapping)
+        for i, header in enumerate(headers):
+            next_header_pos = (
+                headers[i + 1]["pos"] if i + 1 < len(headers) else len(text)
+            )
+            line_end = text.find("\n", header["end"]) + 1
+            between = text[line_end:next_header_pos]
+
+            title_parts = []
+            offset = 0
+            for para in between.split("\n\n"):
+                stripped = para.strip()
+                if not stripped:
+                    offset += len(para) + 2
+                    continue
+                alpha = re.sub(r"[^а-яёА-ЯЁa-zA-Z]", "", stripped)
+                is_caps = alpha and alpha == alpha.upper() and len(stripped) < 200
+                is_header = any(
+                    r.match(stripped)
+                    for r in [self.re_section, self.re_chapter, self.re_article]
+                )
+                if is_caps and not is_header:
+                    title_parts.append(stripped)
+                    offset += len(para) + 2
+                else:
+                    break
+
+            if title_parts:
+                header["title"] = header["title"].rstrip() + " " + " ".join(title_parts)
+            header["content_pos"] = line_end + offset
+
         return headers
 
     def enrich_content(
         self, article: Dict, chapter: Optional[Dict], section: Dict
     ) -> str:
-        """Добавляет контекст раздела и главы в начало статьи"""
         prefix = f"[Раздел {section['roman']}. {section['title']}]"
         if chapter:
             prefix += f" [Глава {chapter['number']}. {chapter['title']}]"
@@ -91,7 +122,9 @@ class TKRusParser:
 
         for i, header in enumerate(headers):
             next_pos = headers[i + 1]["pos"] if i + 1 < len(headers) else len(text)
-            content_start = text.find("\n", header["pos"]) + 1
+            content_start = header.get(
+                "content_pos", text.find("\n", header["pos"]) + 1
+            )
             content = text[content_start:next_pos].strip()
             content = re.sub(r"\n{3,}", "\n\n", content).strip()
 
@@ -193,15 +226,13 @@ class TKRusParser:
                     f.write(json.dumps(record, ensure_ascii=False) + "\n")
                     count += 1
 
-        print(f"✅ JSONL плоский: {path} ({count} статей)")
-
 
 if __name__ == "__main__":
     parser = TKRusParser(chunk_size=1000, chunk_overlap=50)
 
     input_file = "data/processed/Kodecs.md"
     if not Path(input_file).exists():
-        print(f"❌ Файл не найден: {input_file}")
+        print(f"Файл не найден: {input_file}")
         exit()
 
     with open(input_file, "r", encoding="utf-8") as f:
@@ -210,4 +241,4 @@ if __name__ == "__main__":
     structure = parser.parse(text)
     parser.save_json(structure, "data/json/tk_rf_tree.json")
     parser.save_jsonl(structure, "data/json/tk_rf_articles.jsonl")
-    print("🎉 Парсинг и разбиение на чанки завершены.")
+    print("Парсинг и разбиение на чанки завершены.")

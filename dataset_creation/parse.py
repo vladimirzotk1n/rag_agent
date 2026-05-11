@@ -7,6 +7,7 @@ import pymupdf4llm
 def clean_markdown(text: str) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = re.sub(r"\s+([,.:;!?])", r"\1", text)
+    text = re.sub(r"^#+\s+((?:Раздел|Глава|Статья)\s)", r"\1", text, flags=re.MULTILINE)
 
     return text.strip()
 
@@ -21,8 +22,6 @@ def convert_pdf_to_md(pdf_path: str, output_dir: str = "output"):
 
     output_file = output_dir / f"{pdf_path.stem}.md"
 
-    print(f"🔄 Обработка: {pdf_path.name}...")
-
     md_text = pymupdf4llm.to_markdown(pdf_path)
 
     cleaned_text = clean_markdown(md_text)
@@ -30,10 +29,8 @@ def convert_pdf_to_md(pdf_path: str, output_dir: str = "output"):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(cleaned_text)
 
-    print(f"✅ Успешно: {output_file}")
-    print(f"📊 Размер: {len(cleaned_text)} символов")
     return output_file
 
 
 if __name__ == "__main__":
-    convert_pdf_to_md("data/raw/Kodecs.pdf", output_dir="data/processed/Kodecs.md")
+    convert_pdf_to_md("data/raw/Kodecs.pdf", output_dir="data/processed/")

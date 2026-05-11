@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     dense_model_name: str
     chunks_path: str = "/data/json/queried_tk_rf_flat.json"
     sparce_model_name: str = "Qdrant/bm25"
+    qdrant_url: str = "http://qdrant:6333"
     use_cuda: bool = False
     dense_embedding_dim: int = 384
     hf_token: str
@@ -20,6 +21,7 @@ class Settings(BaseSettings):
     langsmith_project: str
 
     openai_api_key: str
+    api_key: str
     redis_password: str
     redis_user: str
     redis_user_password: str
