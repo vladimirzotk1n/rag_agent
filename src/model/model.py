@@ -10,9 +10,7 @@ from .device import DEVICE
 class E5Vectorizer(nn.Module):
     def __init__(self):
         super().__init__()
-        self.e5 = AutoModel.from_pretrained(
-            "intfloat/multilingual-e5-small", token=settings.hf_token
-        )
+        self.e5 = AutoModel.from_pretrained(settings.e5_model, token=settings.hf_token)
 
     def forward(self, input_ids, attention_mask):
         embs = self.e5(
